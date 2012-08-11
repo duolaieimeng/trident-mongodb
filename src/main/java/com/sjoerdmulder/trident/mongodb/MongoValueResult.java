@@ -1,5 +1,11 @@
 package com.sjoerdmulder.trident.mongodb;
 
+/**
+ * Abstract class which should be used by all POJO classes who wish to be used in a Transaction or Opaque state
+ *
+ * @author Sjoerd Mulder (http://github.com/sjoerdmulder)
+ * @param <T> The class who implements this class
+ */
 public abstract class MongoValueResult<T> {
     private Long txId;
     private Long currentTxId;

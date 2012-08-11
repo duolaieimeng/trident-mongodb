@@ -17,11 +17,12 @@ import java.util.List;
 import java.util.Map;
 
 /**
- *
+ * MongoDB State for Trident
+ * @author Sjoerd Mulder (http://github.com/sjoerdmulder)
+ * @param <T> POJO class it should encapsulate
  */
 public class MongoState<T> implements IBackingMap<T> {
 
-    //    private MongoTemplate template;
     private Class<T> type;
     private MongoCollection collection;
 
