@@ -4,7 +4,7 @@
 
     <groupId>com.sjoerdmulder</groupId>
     <artifactId>trident-mongodb</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -16,6 +16,7 @@
         <connection>scm:git:git://github.com/sjoerdmulder/trident-mongodb.git</connection>
         <url>https://github.com/sjoerdmulder/trident-mongodb</url>
         <developerConnection>scm:git:git@github.com:sjoerdmulder/trident-mongodb.git</developerConnection>
+    <tag>0.1</tag>
   </scm>
 
     <build>
