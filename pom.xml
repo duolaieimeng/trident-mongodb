@@ -16,6 +16,8 @@
 
     <scm>
         <connection>scm:git:git://github.com/sjoerdmulder/trident-mongodb.git</connection>
+        <url>https://github.com/sjoerdmulder/trident-mongodb</url>
+        <developerConnection>scm:git:git@github.com:sjoerdmulder/trident-mongodb.git</developerConnection>
     </scm>
 
     <build>
