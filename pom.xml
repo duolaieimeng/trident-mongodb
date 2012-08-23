@@ -14,6 +14,10 @@
         <maven.compiler.target>1.6</maven.compiler.target>
     </properties>
 
+    <scm>
+        <connection>scm:git:git@github.com/sjoerdmulder/trident-mongodb.git</connection>
+    </scm>
+
 
     <dependencies>
         <dependency>
@@ -31,7 +35,7 @@
         <dependency>
             <groupId>storm</groupId>
             <artifactId>storm</artifactId>
-            <version>0.8.1-wip2-SNAPSHOT</version>
+            <version>0.8.1-wip7</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
