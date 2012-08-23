@@ -15,9 +15,18 @@
     </properties>
 
     <scm>
-        <connection>scm:git:git@github.com/sjoerdmulder/trident-mongodb.git</connection>
+        <connection>scm:git:ssh://git@github.com/sjoerdmulder/trident-mongodb.git</connection>
     </scm>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.2.2</version>
+            </plugin>
+        </plugins>
+    </build>
 
     <dependencies>
         <dependency>
